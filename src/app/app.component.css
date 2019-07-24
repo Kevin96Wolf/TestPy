@@ -1,0 +1,143 @@
+
+.contenedorTexto{
+  width: 20%;
+ height:45px;
+  display: table;
+  text-align: center;
+ font-weight: bold;
+
+}
+.contenedorTexto p{
+  text-align:center;
+ vertical-align: middle;
+ display: table-cell;
+font-size: 30px;
+}
+.contenedor{
+  width: 60%;
+  margin: 0 auto;
+
+}
+.contenedorSalir{
+  width: 10%;
+
+    color: #fff;
+    b
+
+      height: 45px;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+  display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top:3px;
+}
+
+.salir{
+  width: 10%;
+ height:45px;
+  display: table;
+  text-align: center;
+ font-weight: bold;
+
+}
+.salir a{
+  text-align:center;
+ vertical-align: middle;
+ display: table-cell;
+font-size: 20px;
+color: white;
+}
+
+
+
+
+.contenedor a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+    background: #023787;
+    color: white;
+    font-size:14px;
+    height: 45px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+ul {
+  background: #023787;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+li {
+width: 33%;
+  color: #fff;
+  background: #023787;
+
+    height: 45px;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top:3px;
+}
+.icon{
+
+padding-top: 7px;
+  padding-left: 40px;
+
+font-size: 20px;
+
+}
+
+li a {
+  color: #fff;
+  width: 100%;
+
+font-weight: bold;
+ font-size: 25px;
+}
+
+li:hover {
+    background: #00DDFE;
+    cursor: pointer;
+    border-bottom: 8px solid white;
+}
+
+ul li ul {
+    background: #023787;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+    top: 30px;
+  display: none;
+  width: 100%;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  z-index: 100;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
